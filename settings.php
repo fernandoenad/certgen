@@ -1,7 +1,7 @@
 <?php
 // Organization
-$org_fullname = "SDO Bohol Task Force ICT Platforms";
-$org_shortname = "SDO Bohol TF ICTP";
+$org_fullname = "Schools Division Office- Bohol";
+$org_shortname = "SDO Bohol";
 $org_email = "deped.bohol@deped.gov.ph";
 $org_web = "www.depedbohol.org";
 $org_address1 = "";
@@ -16,8 +16,8 @@ $app_fullname = "Certificate Generator";
 $app_shortname = "CertGen";
 $app_desc = "Certificate Generator";
 $app_author = "Fernando B. Enad";
-$app_devtdate = "2020-07-03";
-$app_copyyear = "2020";
+$app_devtdate = "2021-05-01";
+$app_copyyear = "2021";
 
 $webapp_namefull = $org_fullname." ".$app_fullname;
 $webapp_nameshort = $org_shortname." ".$app_shortname;

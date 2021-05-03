@@ -9,6 +9,7 @@ if(!isset($_GET['p'])){
 
 if(!isset($_SESSION['certgen_email'])){ $_SESSION['certgen_email'] = "0";}
 
+
 include("_header.php");
 include("_navbar.php");
 

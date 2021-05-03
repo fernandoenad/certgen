@@ -14,8 +14,8 @@
 					<br>
 					<p>
 					<h3 align="center">
-						If you have watched SDO Bohol Task Force ICT Platforms Live Webinar 
-						Sessions, you may search and download your certificates here.
+						Grab your certificate of participation to the <br>
+						SDO-initiated events or trainings here. 
 					</h3>	
 					</p>
 				</div>
@@ -26,13 +26,13 @@
 						<div class="card">
 							<div class="card-body login-card-body">
 								<p align="center"><img src="assets/images/logo.png" style="width: 100px"></p>
-								<p class="login-box-msg">Sign in to start your session</p>
+								<p class="login-box-msg">Input your participant identifier here to get started...</p>
 								<form role="form" id="form" method="post" onSubmit="return false;">
 									<div class="input-group mb-3">
-										<input type="text" class="form-control" name="email" id="email" placeholder="Email" autofocus required>
+										<input type="text" class="form-control" name="email" id="email" placeholder="Email / PRC # / Employee #" autofocus required>
 										<div class="input-group-append">
 											<div class="input-group-text">
-												<span class="fas fa-at"></span>
+												<span class="fas fa-key"></span>
 											</div>
 										</div>
 									</div>
@@ -45,9 +45,10 @@
 										</div>
 									</div>
 								</form>
+								<br>
 								<p class="mb-1">
 									<strong>Which email to sign-in?</strong> 
-									<br>Use the email you used to sign-up for the Webinar Evaluation and Assessment.
+									<br>Use the email / PRC # / employee # you used to register to the event.
 								</p>
 							</div>
 						<!-- /.login-card-body -->

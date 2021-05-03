@@ -117,7 +117,7 @@ function loadProfile(certgen_email){
 			data: {data:data},	
 			success: function(result){
 				if(result[0] == 1){
-					toastr.success('Welcome to CertGen!');
+					toastr.success('Welcome, ' + result[2].cer_fullname + '!');
 					setTimeout(function(){
 						document.getElementById('cer_fullname').innerHTML = result[2].cer_fullname;
 						document.getElementById('cer_email').innerHTML = result[2].cer_email;
