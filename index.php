@@ -26,6 +26,10 @@ if($_GET['p'] == "auth"){
 	include("mod/verify/controller.php");
 	$verifyCtrlr = new Controller();
 	include("mod/verify/index.php");
+} else if($_GET['p'] == "admin"){
+	include("mod/admin/controller.php");
+	$adminCtrlr = new Controller();
+	include("mod/admin/index.php");
 } else {
 	include("_404.php");
 }

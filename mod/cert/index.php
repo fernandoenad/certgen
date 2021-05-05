@@ -130,7 +130,7 @@ if($template == "certtemp.jpg"){
 	$line_count = 0;
 
 	for($i=0; $i<sizeof($text_arr); $i++){
-		$pdf->Cell(260, 6, mb_convert_encoding($text_arr[$i], 'ISO-8859-1', 'UTF-8'), 0, 1, 'C');
+		$pdf->Cell(260, 6, $text_arr[$i], 0, 1, 'C');
 		$line_count++;
 	} 
 
