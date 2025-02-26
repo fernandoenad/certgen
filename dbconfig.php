@@ -6,7 +6,7 @@ if($_SERVER['HTTP_HOST'] == "localhost"){
     $password = "";
 } else {
     $username = "fenad";
-    $password = "fenad";  
+    $password = "Carlo1985%";  
 }
 $dbname = "certgen";
 
